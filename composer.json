@@ -1,0 +1,22 @@
+{
+    "name": "fabiocarneiro/jira-console",
+    "type": "application",
+    "require": {
+        "symfony/console": "^3.2",
+        "zendframework/zend-diactoros": "^1.3",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fábio Carneiro",
+            "email": "fahecs@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "FabioCarneiro\\Jira\\": "src/"
+        }
+    }
+}
